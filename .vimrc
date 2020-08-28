@@ -1,5 +1,6 @@
 " Add line numbers
 set number
+set relativenumber
 
 " Set a color scheme
 colorscheme peachpuff
