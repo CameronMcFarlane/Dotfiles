@@ -30,5 +30,12 @@ fi
 if [ -d "/opt/gradle/gradle-6.6.1/bin" ]; then
 	PATH="$PATH:/opt/gradle/gradle-6.6.1/bin"
 else
-	echo "Gradle has not been installed!"
+	echo "[WARN] Gradle has not been installed!"
+fi
+
+# include homebrew in PATH if installed
+if [ -f "/home/linuxbrew/.linuxbrew/bin/brew" ]; then
+	eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+else
+	echo "[WARN] Homebrew has not been installed!"
 fi
