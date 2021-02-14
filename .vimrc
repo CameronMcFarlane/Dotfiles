@@ -6,9 +6,12 @@ set relativenumber
 colorscheme peachpuff
 
 " Set indentation rules
-set tabstop=4
+set tabstop=2
 set autoindent
 set smartindent
 
 " Key rebindings
 imap jj <Esc>
+
+" Disable wordwrap
+set nowrap
