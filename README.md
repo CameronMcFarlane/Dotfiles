@@ -1,4 +1,4 @@
-# Linux Dotfiles
+# Linux .files
 This repository contains a number of configuration files I like to have setup on every Linux installation, as well as a bash script to get everything linked to my home directory ✨ ***automagically*** ✨
 
 ## Repository Contents
