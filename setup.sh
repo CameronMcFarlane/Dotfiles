@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script symlinks all dotfiles and adds .myenv to the bash profile
+# This script symlinks all dotfiles and includes .myenv in .profile
 
 # Prompts the user with a yes or no question
 prompt () {
