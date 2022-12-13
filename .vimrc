@@ -8,6 +8,7 @@ colorscheme peachpuff
 " Set indentation rules
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
 " Key rebindings
 imap jj <Esc>
