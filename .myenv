@@ -1,3 +1,6 @@
+# Define aliases
+alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+
 # Override default options for less
 export LESS='--tabs=2 --no-init --chop-long-lines --RAW-CONTROL-CHARS'
 
