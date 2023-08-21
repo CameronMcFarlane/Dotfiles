@@ -10,3 +10,8 @@ fi
 if [ -f "/home/linuxbrew/.linuxbrew/bin/brew" ]; then
 	eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
+
+# Include Go in PATH if installed
+if [ -d "/usr/local/go/bin" ]; then
+  PATH="$PATH:/usr/local/go/bin"
+fi
