@@ -1,5 +1,5 @@
 # Override default options for less
-export LESS='--tabs=2 --no-init --clear-screen --chop-long-lines --RAW-CONTROL-CHARS'
+export LESS='--tabs=2 --no-init --chop-long-lines --RAW-CONTROL-CHARS'
 
 # Include gradle in PATH if installed
 if [ -d "/opt/gradle/gradle-6.6.1/bin" ]; then
